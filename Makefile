@@ -1,6 +1,5 @@
 TAG=$(shell cd veraPDF-apps && git describe --always --dirty --tags)
-IMAGE = rene
-/verapdf:$(TAG)
+IMAGE = renefritze/verapdf:$(TAG)
 
 all:
 	docker build -t $(IMAGE) . -f Dockerfile
