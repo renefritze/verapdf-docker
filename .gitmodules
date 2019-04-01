@@ -1,0 +1,3 @@
+[submodule "veraPDF-apps"]
+	path = veraPDF-apps
+	url = https://github.com/veraPDF/veraPDF-apps
